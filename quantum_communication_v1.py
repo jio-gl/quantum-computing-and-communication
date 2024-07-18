@@ -6,7 +6,7 @@ import numpy as np
 def encode_bits(b1, b2):
     return b1 * 2 + b2
 
-def angle_to_bits(angle):
+def angle_to_bits(angle): # 4 bases
     angles = [0, np.pi/12, np.pi/6, np.pi/4]
     index = np.argmin([abs(angle - a) for a in angles])
     return index // 2, (index) % 2
@@ -47,13 +47,14 @@ def run_simulation(num_runs, threshold):
     success_rate = correct_count / num_runs
     return success_rate
 
-# Modify L1_protocol and L2_protocol to accept threshold as a parameter
+# Protocol for Location 1
 def L1_protocol(b1, b2, num_qubits=1000, threshold=0.8536):
     bases = [0, np.pi/12, np.pi/6, np.pi/4]
     angle = bases[encode_bits(b1, b2)]
     ratio = prepare_and_measure(num_qubits, angle)
     return num_qubits, int(ratio > threshold)
 
+# Protocol for Location 2
 def L2_protocol(num_qubits, threshold_bit, threshold=0.8536):
     bases = [0, np.pi/12, np.pi/6, np.pi/4]
     results = []
