@@ -10,6 +10,8 @@ Powered by Google Cirq and Python.
 
 According to bibliography Quantum Communication is impossible with information rate larger than a classical channel: *Quantum Information, Computation and cryptography, Benatti, Fannes, Floreanini, Petritis: pp 210 - theorem HSV and Lemma 1*
 
+Also, this problem is related to time-travel because if you can send information faster than light you possible can send it also to the past or future. Read: https://www.newscientist.com/article/mg26234932-900-quantum-time-travel-the-experiment-to-send-a-particle-into-the-past/
+
 - Our protocols prepare 1000 entangled qubit pairs that are separated and sent to 2 locations (L1 and L2).
 - We want to sent two classical bits `b1` and `b2` from L1 to L2.
 - But we send only another bit `b3` using the quantum protocol for location L1.
