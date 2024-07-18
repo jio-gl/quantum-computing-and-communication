@@ -10,6 +10,11 @@ Powered by Google Cirq and Python.
 
 According to bibliography Quantum Communication is impossible with information rate larger than a classical channel: *Quantum Information, Computation and cryptography, Benatti, Fannes, Floreanini, Petritis: pp 210 - theorem HSV and Lemma 1*
 
+- Our protocols prepare 1000 entangled qubit pairs that are separated and sent to 2 locations (L1 and L2).
+- We want to sent two classical bits `b1` and `b2` from L1 to L2.
+- But we send only another bit `b3` using the quantum protocol for location L1.
+- Can the operator of the quantum protocol for location L2 decode the two bits `b1` and `b2`?
+
 1. Failed Attemp #2
 ```bash
 Number of runs: 1000
