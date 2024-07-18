@@ -68,7 +68,7 @@ def run_simulation(num_runs=10000):
     return success_rate, error_rate
 
 # Run the simulation
-num_runs = 100
+num_runs = 1000
 success_rate, error_rate = run_simulation(num_runs)
 print(f"Number of runs: {num_runs}")
 print(f"Success rate: {success_rate:.4f}")
