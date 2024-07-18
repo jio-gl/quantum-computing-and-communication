@@ -17,7 +17,10 @@ According to bibliography Quantum Communication is impossible with information r
 - You can repeat this protocol to estimate the success rate... (larger than 50% success rate is good)
 
 1. Failed Attemp #1: What is the best threshold? <img width="995" alt="image" src="https://github.com/user-attachments/assets/6ee7069b-2e97-4e61-a83e-313a396baa29">
-
+```
+Best threshold: 0.8540
+Best success rate: 0.3100
+```
 1. Failed Attemp #2
 ```bash
 Number of runs: 1000
