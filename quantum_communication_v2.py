@@ -33,6 +33,7 @@ def prepare_and_measure(num_qubits, angle):
     passes = np.count_nonzero(measurement == 0)
     return passes / num_qubits
 
+# Location 1 Protocol
 def L1_protocol(b1, b2, num_qubits=1000):
     bases = [0, np.pi/8, np.pi/4, 3*np.pi/8]  # 0°, 22.5°, 45°, 67.5°
     angle = bases[encode_bits(b1, b2)]
@@ -41,6 +42,7 @@ def L1_protocol(b1, b2, num_qubits=1000):
     threshold = np.cos(np.deg2rad(22.5))**2
     return num_qubits, int(ratio > threshold)
 
+# Location 2 Protocol
 def L2_protocol(num_qubits, threshold_bit, threshold=0.8536): # 0.8536 # old 0.7071
     bases = [0, np.pi/8, np.pi/4, 3*np.pi/8]  # 0°, 22.5°, 45°, 67.5°
     results = []
