@@ -1,2 +1,3 @@
-# quantum-computing-and-communication
-Ideas on Quantum Computing, Cryptography and Communication Algorithms
+# Quantum Computing and Cryptography
+
+Ideas on Quantum Computing, Cryptography and Communication Algorithms.
