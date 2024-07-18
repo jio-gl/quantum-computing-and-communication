@@ -14,7 +14,7 @@ According to bibliography Quantum Communication is impossible with information r
 - We want to sent two classical bits `b1` and `b2` from L1 to L2.
 - But we send only another bit `b3` using the quantum protocol for location L1.
 - Can the operator of the quantum protocol for location L2 decode the original two bits `b1` and `b2`?
-- You can repeat this protocol to estimate the success rate...
+- You can repeat this protocol to estimate the success rate... (larger than 50% success rate is good)
 
 1. Failed Attemp #1: What is the best threshold? <img width="995" alt="image" src="https://github.com/user-attachments/assets/6ee7069b-2e97-4e61-a83e-313a396baa29">
 
