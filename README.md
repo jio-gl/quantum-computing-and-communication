@@ -10,7 +10,7 @@ Powered by Google Cirq and Python.
 
 According to bibliography Quantum Communication is impossible with information rate larger than a classical channel: *Quantum Information, Computation and cryptography, Benatti, Fannes, Floreanini, Petritis: pp 210 - theorem HSV and Lemma 1*
 
-Also, this problem is related to time-travel because if you can send information faster than light you possible can send it also to the past or future. Read: https://www.newscientist.com/article/mg26234932-900-quantum-time-travel-the-experiment-to-send-a-particle-into-the-past/
+Also, this problem is related to time-travel because if you can send information faster than light you possible can send it also to the past or future. Read: https://www.newscientist.com/article/mg26234932-900-quantum-time-travel-the-experiment-to-send-a-particle-into-the-past/ (full version https://shorturl.at/0HIAF)
 
 Gedankenexperimenten here too: *Nonclassical Advantage in Metrology Established via Quantum Simulations of Hypothetical Closed Timelike Curves* https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.150202
 
