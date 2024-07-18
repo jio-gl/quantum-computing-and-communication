@@ -9,3 +9,10 @@ Powered by Google Cirq and Python.
 ## Is Faster-than-Light Quantum Communication Possible?
 
 According to bibliography Quantum Communication is impossible with information rate larger than a classical channel: *Quantum Information, Computation and cryptography, Benatti, Fannes, Floreanini, Petritis: pp 210 - theorem HSV and Lemma 1*
+
+1. Failed Attemp #2
+```bash
+Number of runs: 1000
+Success rate: 0.2440
+Error rate: 0.7560
+```
