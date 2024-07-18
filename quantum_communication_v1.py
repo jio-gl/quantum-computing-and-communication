@@ -1,6 +1,8 @@
 import cirq
 import numpy as np
 
+# Quantum Communication is Impossible, this is Attempt #1
+
 def encode_bits(b1, b2):
     return b1 * 2 + b2
 
