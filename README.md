@@ -16,18 +16,19 @@ According to bibliography Quantum Communication is impossible with information r
 - Can the operator of the quantum protocol for location L2 decode the original two bits `b1` and `b2`?
 - You can repeat this protocol to estimate the success rate... (larger than 50% success rate is good)
 
-1. Failed Attemp #1: What is the best threshold? <img width="995" alt="image" src="https://github.com/user-attachments/assets/6ee7069b-2e97-4e61-a83e-313a396baa29">
+
+### Failed Attemp #1: What is the best threshold? <img width="995" alt="image" src="https://github.com/user-attachments/assets/6ee7069b-2e97-4e61-a83e-313a396baa29">
 ```
 Best threshold: 0.8540
 Best success rate: 0.3100
 ```
-1. Failed Attemp #2
+### Failed Attemp #2
 ```bash
 Number of runs: 1000
 Success rate: 0.2440
 Error rate: 0.7560
 ```
-1. Failed Attempt #3
+### Failed Attempt #3
 ```
 Number of runs: 1000
 Overall success rate: 0.5230
