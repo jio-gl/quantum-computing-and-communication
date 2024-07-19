@@ -51,4 +51,10 @@ Overall success rate: 0.5120
 Success rate for b1: 0.5130
 Success rate for b2: 0.5120
 Overall error rate: 0.4880
+---
+Number of runs: 1000 (4000 qubit paris per run)
+Overall success rate: 0.5060
+Success rate for b1: 0.5060
+Success rate for b2: 0.5060
+Overall error rate: 0.4940
 ```
