@@ -45,4 +45,10 @@ Overall success rate: 0.5054
 Success rate for b1: 0.5099
 Success rate for b2: 0.5096
 Overall error rate: 0.4946
+---
+Number of runs: 1000 (2000 qubit pairs)
+Overall success rate: 0.5120
+Success rate for b1: 0.5130
+Success rate for b2: 0.5120
+Overall error rate: 0.4880
 ```
