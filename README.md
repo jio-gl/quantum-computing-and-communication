@@ -39,4 +39,10 @@ Overall success rate: 0.5230
 Success rate for b1: 0.5240
 Success rate for b2: 0.5300
 Overall error rate: 0.4770
+---
+Number of runs: 10000
+Overall success rate: 0.5054
+Success rate for b1: 0.5099
+Success rate for b2: 0.5096
+Overall error rate: 0.4946
 ```
